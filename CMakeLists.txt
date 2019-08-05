@@ -5,7 +5,8 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
   sensor_msgs
-  geometry_msgs)
+  geometry_msgs
+  uuid_msgs)
 
 include_directories(include)
 
