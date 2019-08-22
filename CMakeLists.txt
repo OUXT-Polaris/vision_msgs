@@ -6,7 +6,8 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   sensor_msgs
   geometry_msgs
-  uuid_msgs)
+  uuid_msgs
+)
 
 include_directories(include)
 
@@ -30,6 +31,7 @@ generate_messages(DEPENDENCIES
   std_msgs
   sensor_msgs
   geometry_msgs
+  uuid_msgs
 )
 
 catkin_package(CATKIN_DEPENDS
@@ -37,6 +39,7 @@ catkin_package(CATKIN_DEPENDS
   std_msgs
   sensor_msgs
   geometry_msgs
+  uuid_msgs
 )
 
 install(DIRECTORY include/${PROJECT_NAME}/
