@@ -25,3 +25,5 @@ bool is_tracking
 #   likely differ from the id field set in each individual ObjectHypothesis.
 # If you set this field, be sure to also set is_tracking to True.
 uuid_msgs/UniqueID tracking_id
+
+uuid_msgs/UniqueID detection_id
