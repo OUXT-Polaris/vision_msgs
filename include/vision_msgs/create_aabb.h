@@ -15,8 +15,8 @@
 #ifndef VISION_MSGS_BUILD_BBOX_H_
 #define VISION_MSGS_BUILD_BBOX_H_
 
-#include "vision_msgs/BoundingBox2D.h"
-#include "vision_msgs/BoundingBox3D.h"
+#include "vision_msgs/msg/BoundingBox2D.hpp"
+#include "vision_msgs/msg/BoundingBox3D.hpp"
 
 namespace vision_msgs
 {
